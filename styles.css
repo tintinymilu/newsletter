@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  font-size: 62.5%;
+  font-family: 'Oswald';
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Medium.woff2') format('woff2'),
+        url('Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+  padding: 2em;
+}
+
+.header {
+  background-color:  #017074;
+  padding: 3%;
+  margin: 0%;
+  margin-left: 0px;
+}
+h1{
+  text-align: left;
+  padding-left: 6rem;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #017074
+}
+
+h2{
+  text-align: center;
+  font-style: normal;
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #017074
+}
+
+p{
+  color: #017074;
+  font-size: 1rem;
+  font-family: Arial;
+  text-align: center;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+button {
+  background: #fff;
+  border: 2px solid #017074;
+  border-radius: 5px;
+  color: #017074;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 1rem auto;
+  padding: 1rem 5rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+footer{
+text-align: center;
+color: #017074;
+margin-top: -1rem;
+font-size: 0.7rem;
+font-weight: lighter;
+font-family: Arial;
+
+}
+
+button:hover {
+  background: #017074;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+/* BUTTON 1 */
+.btn-1::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.btn-1:hover:after {
+  height: 100%;
+}
+
+#gift{
+  text-align:center;
+}
